@@ -12,10 +12,6 @@ app.get('/', c => {
   return c.text('Hello Hono!');
 });
 
-app.get('/', async c => {
-  return c.render(<h1>Hello!!</h1>);
-});
-
 app.get('/eric', async c => {
   return c.json(eric);
 });
