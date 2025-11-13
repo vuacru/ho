@@ -5,9 +5,7 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
-    "lib": [
-      "ESNext"
-    ],
+    "lib": [ "dom", "es5", "es2015.promise" ,"es2015", "es2017"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
   },
