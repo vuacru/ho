@@ -12,27 +12,27 @@ app.get('/', c => {
   return c.text('Hello Hono!');
 });
 
-app.get('/eric', async c => {
+app.get('/eric/250930', async c => {
   return c.json(eric);
 });
 
-app.get('/clare', async c => {
+app.get('/clare/250930', async c => {
   return c.json(clare);
 });
 
-app.get('/vlatko', async c => {
+app.get('/vlatko/250930', async c => {
   return c.json(vlatko);
 });
 
-app.get('/bibiana', async c => {
+app.get('/bibiana/250930', async c => {
   return c.json(bibiana);
 });
 
-app.get('/common', async c => {
+app.get('/common/250930', async c => {
   return c.json(common);
 });
 
-app.get('/weapon', async c => {
+app.get('/weapon/250930', async c => {
   return c.json(weapon);
 });
 
